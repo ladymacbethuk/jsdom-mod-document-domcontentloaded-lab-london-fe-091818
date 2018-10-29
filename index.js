@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 */
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  document.getElementById("div#hidden-div").innerHTML = new HTML;
+  document.getElementById("div#hidden-div").innerHTML = '301';
 })
