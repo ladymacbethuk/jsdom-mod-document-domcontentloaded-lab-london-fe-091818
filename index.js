@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 })
 */
 
-document.addEventListener("DOMContentLoaded", function() {
-    document.open("text/html","replace");
-    document.write("<h2>Learning about the HTML DOM is fun!</h2>");
-    document.close();
+document.addEventListener("DOMContentLoaded", function myFunction() {
+    var str = document.getElementById("div#hidden-div").innerHTML; 
+    var res = str.replace("300", "301");
+    document.getElementById("div#hidden-div").innerHTML = res;
 })
