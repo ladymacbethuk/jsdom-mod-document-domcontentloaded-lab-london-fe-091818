@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 */
 
 document.addEventListener("DOMContentLoaded", function() {
-    var str = document.getElementById("div#hidden-div").innerHTML; 
-    var res = str.replace("300", "301");
+    let str = document.getElementById("div#hidden-div").innerHTML; 
+    let res = str.replace("300", "301");
     document.getElementById("div#hidden-div").innerHTML = res;
 })
