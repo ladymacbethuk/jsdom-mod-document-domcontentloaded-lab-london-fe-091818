@@ -1,5 +1,4 @@
 /* code goes here */
 document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector("div#hidden-div").innerText
-   
+  document.querySelector("div#hidden-div").innerText='301;'
 })
